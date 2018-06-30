@@ -3,12 +3,12 @@
  int main()
  {
 	 printf("Введите последовательно радиус окружности и координаты точки\n");
-	 int r = 0;
-	 int x = 0;
-	 int y = 0;
-	 scanf("%d", &r); 
-	 scanf("%d", &x);
-	 scanf("%d", &y); 
+	 float r = 0;
+	 float x = 0;
+	 float y = 0;
+	 scanf("%f", &r); 
+	 scanf("%f", &x);
+	 scanf("%f", &y); 
 	 if (x * x + y * y == r * r)
 	 {
 		 printf("Точка принадлежит окружности\n");

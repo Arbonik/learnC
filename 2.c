@@ -2,6 +2,6 @@
  
  int main()
  {
-	 int number = srand() % 13 ;
+	 int number = srand() % 13 - 5;
 	 printf("%d", number);
  } 

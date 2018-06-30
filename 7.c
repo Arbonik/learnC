@@ -3,11 +3,11 @@
  int main()
  {
 	 int myNumber = rand() % 10 + 1;
-	 int userV = 16;
-	 while (!(myNumber == userV))
+	 int userVariant = 16;
+	 while (myNumber != userVariant)
 	 {
 		 printf("Введите ваш вариант");
-		 scanf("%d", &userV);
+		 scanf("%d", &userVariant);
 		 }
 		 printf("Верно!");
  } 

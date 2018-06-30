@@ -2,7 +2,7 @@
  
  int main()
  {
-	 int myNumber = myNumber  = rand() % 10 + 1;
+	 int myNumber = rand() % 10 + 1;
 	 int userV = 16;
 	 while (!(myNumber == userV))
 	 {
