@@ -15,7 +15,7 @@ int main(int argc, char **argv)
 {
     srand((unsigned)time(NULL));
     int place = 0; // хранит положение минимального значения в массиве
-    int minValue = -1; // хранит значение минимального отрицательного числа
+    int minValue = -50; // хранит значение максимального отрицательного числа
     size_t size = 0; // размер массива
     
     do
@@ -32,7 +32,7 @@ int main(int argc, char **argv)
     printArray(array, size);//вывод первоначального состояния массива
     for (int i = 0; i < size; ++i)
     {
-        if (array[i] < minValue)
+        if ( (array[i] > minValue) && (array[i] < 0) )
         {
             minValue = array[i];
             place = i;
